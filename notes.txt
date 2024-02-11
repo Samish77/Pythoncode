@@ -1,0 +1,66 @@
+Python If Else Statement or conditional Statement
+
+conditional statements    flow control statements
+1) If 
+2) while
+3) Do while
+
+1) If Statement:- conditional and flow control
+    1) if Statement
+    2) if-Else statements
+    3) nested if statements
+    4) if-elif-else statements
+
+indentetion type programing lanuguge
+
+if(condition)      if(i=20)
+                      {
+                        print("i am good")
+                      }
+                    print("i a bad")
+python if statements
+  if condition:
+     statement 1
+  statement 2   
+ if i=20:
+    print("ia m good')
+ print("i am bad")   
+
+
+2) if -Else syntax
+if(condition):
+    statement 1
+    statement 2
+else:
+    statement 3
+    statement 4
+
+
+3) nested if condition    multiple if statement
+     syntax
+
+    if(condition):
+         excute this when condition 1 true
+        if(condition):
+            excute when condition 2 is true 
+        end
+    end
+
+4)if(condition):
+     statement
+  elif(condition):
+      statement
+  else
+      statement    
+
+
+
+
+
+
+
+
+
+
+
+
