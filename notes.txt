@@ -54,8 +54,48 @@ else:
       statement    
 
 
+Loops in python
+1) while statement
+2) for statement
 
 
+
+syntax for while
+intilization
+while  condition:
+       statement 1
+       statement 2
+increment
+syntax for for
+
+c syntax for for Loops
+
+for(i=0;i<10;i++)
+for(intilization;condition;increment/decrement)
+
+
+python syntax for for Loops
+
+for i in range:
+    print
+
+
+    prime   4/2===== 2     remainder 0
+            7/2====== 3    remainder 1
+
+            a=7/2    a=3     
+            a=7%2    a=1    % modulus 
+
+            7 is prime or not   
+
+            a=7%1    a=0       a=7%6   a=1
+            a=7%2    a=1       a=7%7   a=0
+            a=7%3    a=1
+            a=7%4    a=1
+            a=7%5    a=1  
+
+
+            
 
 
 
