@@ -101,6 +101,34 @@ for i in range:
 
 
 
+Functions
+sequential and oops object orineted programming
+block of statement
+1) Increases the readability of code
+2) Increases the code reusabilty
+
+2 types
+1) built in libary Functions
+2) user defined Functions
+
+    function()
+
+    print("welcome")
+    sum()
+    reverse()
+
+    user defined Functions
+
+
+syntax
+
+def  function_name(parameter):
+      # statement1
+      # statement2
+    return type
+
+function_name()      call of the function
+
 
 
 
