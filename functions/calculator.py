@@ -2,6 +2,6 @@
 
 def cal(input1,input2):
     output=input1 + input2
-    print(output)
+    return output
 
-cal(10,10)   
+print(cal(10,10))   
