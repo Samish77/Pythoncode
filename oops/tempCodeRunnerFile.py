@@ -1,0 +1,1 @@
+print("computer turn:snake(s) water(w) gun(g) ?")
