@@ -129,6 +129,229 @@ def  function_name(parameter):
 
 function_name()      call of the function
 
+Arguments in function . parameter
+ they are values which are passed inside the paranthesis
+ no arguments or single argument or multiple arguments which are seperated by comma
 
+
+t4 types of function arguments
+1)default
+2)keyword arguments
+3) positional 
+4) arbitary arguments
+
+
+
+
+positional:-in switch case .combination of string and interger data types 
+for passing arguments
+
+arbitary arguments
+*args (non keyword arguments)
+**kwargs (keyword arguments)
+
+Docstring:- it a string which comes first after the function document string
+syntax     print(function_name._doc_)
+
+Functions in Functions
+ writing one function into another  called inner function also nested function
+
+Anonymous function
+ def is keyword which can e used to define function
+ lambada keyword is used to declare or create Anonymous function 
+
+ Recursive function
+  in python this if function is calling itself. 
+ 
+ Pass by refrence and pass by values
+
+ yeild 
+  if i want to suspend a excucation of a function for some amout of time.
+  start
+
+Generator Function Special type of function using a yeild keyword  
+
+
+gobal keyword ::: type of varabile which can used any where
+
+oops programming  :object orineted programming
+class
+object
+inheritance 
+polymorpishm
+overloading
+ class and object  
+
+ constructor  :- it is defaulut function inside   __init__ function
+
+
+
+ every thing in python is object
+
+ class is blueprint for creating object
+ object is an isntance of class 
+
+
+ 1)  Program to find out maximum number from 3 numbers
+ 2)  temperture enter Celcius and display farenhits
+
+
+
+ Class and Instance  attributes 
+ class and object attributes
+
+      student(class)   sbgi  class attribute
+      s1 s2 s3 s4  
+      name name name name  instance(object) attributes
+      class.attribute
+      object.attribute
+
+
+Methods     Functions
+
+class
+1) data
+2) Methods    function inside the classes
+       
+
+Oops concept pillars
+
+1) Abstraction
+2) Encapssulation
+3) inheritance
+4) polymorpishm
+
+
+1)Abstraction:- hiding the implementation details of class and showing
+only the essentail fearures to the user
+
+2) Encapsulation:-wrapping data  & function into a single unit(object)
+
+
+del kkeyword
+
+delete keyword is used to delete object or object properties 
+
+del s1.name
+del s1 
+
+
+private  
+private and public
+
+inheritance class
+child / derived           parent/base 
+
+
+class car:
+-----
+-----
+class toyotocar(car):
+__----
+------
+types of inheritance 
+1) single inheritance         base ----->  child
+
+base----> derived 
+
+2) multilevel inheritance    
+
+base--->derived-----> derived 
+
+3) multiple  inheritance
+
+
+super method.method which is used to acess methods of parent class 
+
+
+snake water gun 
+
+
+class method
+decorates  class method:- a class method is bound to the class and receives 
+the class as argument
+
+class student:
+@classmethod   #decorator
+    def college(cls)
+
+ polymorpishm :-operator overloading
+
+ +,-,*,/     
+
+ 2+3=6 
+
+ when a same operator is allowed to have differnt meaning acoording the
+ context.
+
+
+ operators and dunder function
+
+ a+b    # addition    a.__add__(b)
+ explicite polymorpishm 
+
+
+imganary number system, complex number number system
+2+3 =real numbers 2.3 0 1 
+
+3i+4j    3i   real part     4j= imganary part 
+5i+7j     5i real part   7j is imganary
+how to perform addition of acomplex number 
+
+8i+11j
+Python File Open
+
+f = open(filename, mode)
+
+Where the following mode is supported:
+
+    r: open an existing file for a read operation.
+    w: open an existing file for a write operation. If the file already contains some data, then it will be overridden but if the file is not present then it creates the file as well.
+    a:  open an existing file for append operation. It won’t override existing data.
+    r+:  To read and write data into the file. The previous data in the file will be overridden.
+    w+: To write and read data. It will override existing data.
+    a+: To append and read data from the file. It won’t override existing data.
+
+
+
+# a file named "sam", will be opened with the reading mode.
+file = open('sam.txt', 'r')
+ 
+# This will print every line one by one in the file
+for each in file:
+    print (each)
+
+
+# Python code to illustrate read() mode
+file = open("sam.txt", "r") 
+print (file.read())
+
+
+# Python code to illustrate with()
+with open("sam.txt") as file:  
+    data = file.read() 
+ 
+print(data)
+
+
+# Python code to illustrate read() mode character wise
+file = open("sam.txt", "r")
+print (file.read(5))
+
+
+Creating a File using the write() Function
+
+
+# Python code to illustrate append() mode
+file = open('geek.txt', 'a')
+file.write("This will add this line")
+file.close()
+
+
+# Python code to create a file
+file = open('geek.txt','w')
+file.write("This is the write command")
+file.write("It allows us to write in a particular file")
+file.close()
 
 
