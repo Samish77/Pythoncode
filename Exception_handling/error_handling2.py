@@ -8,3 +8,6 @@ except ValueError:
 
 except IndexError:
     print("Index Error")
+
+except ZeroDivisionError:
+    print("Value is infinite")
